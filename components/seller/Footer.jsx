@@ -9,7 +9,7 @@ const Footer = () => {
         <Image className="hidden md:block" src={assets.logo} alt="logo" />
         <div className="hidden md:block h-7 w-px bg-gray-500/60"></div>
         <p className="py-4 text-center text-xs md:text-sm text-gray-500">
-        © MirArts, All Right Reserved. Designed By Mohammad Haseeb Mir
+        © Akhtar Mir And Brothers, All Right Reserved. Designed By Mohammad Haseeb Mir
         </p>
       </div>
       <div className="flex items-center gap-3">

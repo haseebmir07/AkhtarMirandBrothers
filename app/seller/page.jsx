@@ -14,7 +14,7 @@ const AddProduct = () => {
   const [files, setFiles] = useState([]);
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
-  const [category, setCategory] = useState('Earphone');
+  const [category, setCategory] = useState('');
   const [price, setPrice] = useState('');
   const [offerPrice, setOfferPrice] = useState('');
 
@@ -43,7 +43,7 @@ const AddProduct = () => {
        setFiles([])
        setName('')
        setDescription('')
-       setCategory('Earphone')
+       setCategory('')
        setPrice('')
        setOfferPrice('')
       }else{
@@ -124,13 +124,12 @@ const AddProduct = () => {
               onChange={(e) => setCategory(e.target.value)}
               defaultValue={category}
             >
-              <option value="Earphone">Earphone</option>
-              <option value="Headphone">Headphone</option>
-              <option value="Watch">Watch</option>
-              <option value="Smartphone">Smartphone</option>
-              <option value="Laptop">Laptop</option>
-              <option value="Camera">Camera</option>
-              <option value="Accessories">Accessories</option>
+              <option value="Paper Machie-Items">Paper Machie-Items</option>
+              <option value="Home-Decoration">Home-Decoration</option>
+              <option value="Dry Food-Items">Dry Food-Items</option>
+              <option value="Wall-Decoration">Wall-Decoration</option>
+              <option value="Wedding-Items">Wedding-Items</option>
+              <option value="Interior-Items">Interior-Items</option>
             </select>
           </div>
           <div className="flex flex-col gap-1 w-32">

@@ -20,9 +20,9 @@ import heart_icon from "./heart_icon.svg";
 import star_icon from "./star_icon.svg";
 import redirect_icon from "./redirect_icon.svg";
 import star_dull_icon from "./star_dull_icon.svg";
-import header_headphone_image from "./header_headphone_image.png";
-import header_playstation_image from "./header_playstation_image.png";
-import header_macbook_image from "./header_macbook_image.png";
+import akhtarmir from "./akhtarmir.jpg"
+import nasirmir from "./nasirmir.jpg"
+import stuff from "./stuff.png"
 import macbook_image from "./macbook_image.png";
 import bose_headphone_image from "./bose_headphone_image.png";
 import apple_earphone_image from "./apple_earphone_image.png";
@@ -46,6 +46,9 @@ import product_details_page_apple_earphone_image2 from "./product_details_page_a
 import product_details_page_apple_earphone_image3 from "./product_details_page_apple_earphone_image3.png";
 import product_details_page_apple_earphone_image4 from "./product_details_page_apple_earphone_image4.png";
 import product_details_page_apple_earphone_image5 from "./product_details_page_apple_earphone_image5.png";
+import haseeb from "./haseeb.jpg";
+import boat from "./boat.png";
+import akhtarmirteam from "./akhtarmirteam.jpg";
 
 export const assets = {
   logo,
@@ -70,9 +73,9 @@ export const assets = {
   star_icon,
   redirect_icon,
   star_dull_icon,
-  header_headphone_image,
-  header_playstation_image,
-  header_macbook_image,
+  akhtarmir,
+  nasirmir,
+  stuff,
   macbook_image,
   bose_headphone_image,
   apple_earphone_image,
@@ -95,7 +98,10 @@ export const assets = {
   product_details_page_apple_earphone_image3,
   product_details_page_apple_earphone_image4,
   product_details_page_apple_earphone_image5,
-  checkmark
+  checkmark,
+  haseeb,
+  boat,
+  akhtarmirteam
 };
 
 export const BagIcon = () => {
